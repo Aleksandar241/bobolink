@@ -1,0 +1,10 @@
+node_modules
+dist
+build
+.expo
+.expo-shared
+*.log
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+scripts

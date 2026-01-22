@@ -1,0 +1,16 @@
+dangerouslyAllowAllBuilds: false
+
+nodeLinker: hoisted
+
+onlyBuiltDependencies:
+  - '@expo/metro-config'
+  - '@expo/metro-runtime'
+  - '@react-native-community/cli-platform-android'
+  - '@react-native-community/cli-platform-ios'
+  - '@shopify/react-native-skia'
+  - unrs-resolver
+  - 'react-native-notes-streamer'
+
+preferSymlinkedExecutables: true
+
+strictDepBuilds: true

@@ -1,0 +1,6 @@
+./scripts/bash/check-secrets-in-staging.sh || exit 1
+./scripts/bash/pre-commit-env-encryption.sh || exit 1
+pnpm format:check
+pnpm lint
+pnpm check:circular:deps
+pnpm check-types
